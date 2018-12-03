@@ -1,8 +1,8 @@
 package infinateTerrain;
 
 public class Tile {
-	int altitude;
-	boolean hasFeature = false;
+	private int altitude;
+	private boolean hasFeature = false;
 	
 	public Tile() {
 		this.hasFeature = false;
